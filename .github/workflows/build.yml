@@ -55,4 +55,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: deep-harness-switch.nro
-          generate_release_notes: true
+          body: "Nintendo Switch 自制程序:右 Joy-Con 红外摄像头基准/探针(Phase 1)。测量各 IrsImageTransferProcessorFormat 的采集时序。将 .nro 放入 SD 卡 homebrew 目录运行。"
